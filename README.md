@@ -2,10 +2,11 @@
 
 ## About The Project
 
-### ABC Learning Centre is a demo website that promotes various coding languages for adult learners. 
+### ABC Learning Centre is a demo website that promotes programming courses for adult learners. 
 Prospective students will be able to view the courses available, make enquiries and register for courses. 
+As an admin, users will be able to view, edit, retrieve and delete the data sent via the registration forms to the admin page (admin.html)
 
-### Technologies Used
+## Technologies Used
 
 ### Software: Platform needed to deploy the application n (tomcat server and its version, java and its version)
 o	Development environment: JDK1.8
