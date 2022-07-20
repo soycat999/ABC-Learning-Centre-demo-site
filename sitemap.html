@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+       $('#header').load("header.html");
+       $('#footer').load("footer.html");
+      });
+      </script>
+</head>
+<body>
+    <style>
+        section{ 
+    min-height: 100vh;
+    margin-top:5%;
+  }
+    </style>
+    
+    <div id="header"></div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+               Homepage
+               <li><a href="courses.html">Explore Courses</a></li>
+              </div>
+              <div class="col-md-12">
+                About Us
+                <li><a href="about-us.html">About Us</a></li>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    Courses
+                <ul>
+                    <li><a href="javascript-course-detail.html">JavaScript Course</a></li>
+                    <li><a href="javascript-course-schedule.html">JavaScript Course Schedule</a></li>
+                </ul>
+                <ul>
+                    <li><a href="react-course-details.html">React Course</a></li>
+                    <li><a href="react-course-schedule.html">React Course Schedule</a></li>
+                </ul>
+                <ul>
+                    <li><a href="angular-course-details.html">Angular Course</a></li>
+                    <li><a href="angular-course-schedule.html">Angular Course Schedule</a></li>
+                </ul>
+                <ul>
+                    <li><a href="python-course-detail.html">Python Course</a></li>
+                    <li><a href="python-course-schedule.html">Python Course Schedule</a></li>
+                </ul>
+                <ul>
+                    <li><a href="node-course-details.html">Node.js Course</a></li>
+                    <li><a href="node-course-schedule.html">Node.js Course Schedule</a></li>
+                </ul>
+              </div>
+              <div class="col-md-12">
+                Registration Form
+                <li><a href="register.html">Lead Registration Form</a></li>
+              </div>
+              <div class="col-md-12">
+                Contact Us
+                <li><a href="contact-us.html">Contact Us</a></li>
+              </div>
+              <div class="col-md-12">
+                Terms & Conditions
+               <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+              </div>
+              <div class="col-md-12">
+                Privacy Policy
+               <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              </div>
+            </div>
+          </div>
+</section>
+    
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
