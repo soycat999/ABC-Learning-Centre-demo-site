@@ -1,5 +1,3 @@
-# ABC-Learning-Centre-demo-site
-
 ## About The Project
 
 ### ABC Learning Centre is a demo website that promotes programming courses for adult learners. 
@@ -21,4 +19,4 @@ o	HTML, CSS, Jquery, Bootstrap, JavaScript
 ### Back-end Technology
 o	JavaScript, Apache for data creation, retrieval, deletion, and maintenance.
 
-# Link to view the demo site : 
+# Link to view the demo site : https://soycat999.github.io/ABC-Learning-Centre-demo-site/
